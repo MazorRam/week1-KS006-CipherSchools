@@ -5,7 +5,14 @@ int main()
 {
     int password;
 
-    cout<<"Enter the passord: ";
+    do
+    {
+        cin>>password;
+    }
+    while(password<999999);
+    
+
+/*cout<<"Enter the passord: ";
     cin>>password;
 
     while(password<999999)
@@ -13,6 +20,7 @@ int main()
         cout<<"The password does not meet the required conditions, please enter password again";
         cin>>password;
     }
+*/
 
     cout<<"The user has now entered a correct password"<<endl;
     return 0;
