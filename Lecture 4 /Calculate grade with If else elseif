@@ -12,11 +12,11 @@ int main()
   {
     cout<"A";
   }
-  if(marks<90 && marks>80)
+  else if(marks<90 && marks>80)
   {
     cout<"B";
   }
-  if(marks<80 && marks>70)
+  else if(marks<80 && marks>70)
   {
     cout<<"C";
   }
