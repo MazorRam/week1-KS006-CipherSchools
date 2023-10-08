@@ -6,16 +6,10 @@ int main()
   int x[5];
 
   cout << "Enter 5 integers as input: " << endl;
+	cin>>f>>b>>c>>d>>e;
 
-  for (int i = 0; i < 5; ++i) {
-    cin >> x[i];
-  }
-
-  cout << "The array elements are: ";
-
-  for (int n = 0; n < 5; ++n) {
-    cout << x[n] << "  ";
-  }
+	cout<<"reverse order is: ";
+	cout<<e<<d<<c<<b<<f;
 
   return 0;
 }
