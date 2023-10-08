@@ -5,8 +5,13 @@ int main()
 {
   int a=3;
   int b=5;
+
+
   cout<<a+b;
   cout<<endl;
   cout<<"a+b";
+
+//  cout<<a+b<<endl<<"a+b";
+// prints the same line
   return 0;
 }
