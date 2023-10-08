@@ -18,5 +18,12 @@ int main() {
     cout << a[n] << "  ";
   }
 
+  cout<<"The 10 given inputs in reverse order are: "<<endl;
+	
+	for(int i=9; i>=0; i--)
+  {
+		cout<<a[i];
+	}
+
   return 0;
 }
